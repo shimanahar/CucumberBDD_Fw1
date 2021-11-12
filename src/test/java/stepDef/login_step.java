@@ -37,6 +37,10 @@ public class login_step extends Setup {
     }
 
 
+    @And("I click Create New Account Button in Login Page")
+    public void iClickCreateNewAccountButtonInLoginPage() {
+        login.clickCreateNewAccountBtn();
+    }
 }
 
 
